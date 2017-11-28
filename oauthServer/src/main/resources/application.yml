@@ -1,0 +1,19 @@
+server:
+    port: 8282
+    contextPath: /authServer
+    
+security:
+    user:
+      name: authUser
+      password: authUserSecret
+    oauth2:
+      client:
+        clientId: testClient
+        clientSecret: testClientSecret
+        authorized-grant-type: authorization_code,refresh_token,password
+        scope: openid
+        
+        
+        
+        
+
