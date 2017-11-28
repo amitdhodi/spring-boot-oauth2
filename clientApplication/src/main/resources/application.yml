@@ -1,0 +1,12 @@
+server:
+  port: 8484
+  context-path: /client
+security:
+    oauth2:
+      client:
+        client-id: testClient
+        client-secret: testClientSecret
+        access-token-uri: http://localhost:8282/authServer/oauth/token
+        user-authorization-uri: http://localhost:8282/authServer/oauth/authorize
+      resource:
+        user-info-uri: http://localhost:8282/authServer/user
