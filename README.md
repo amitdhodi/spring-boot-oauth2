@@ -1,5 +1,5 @@
 # spring-boot-oauth2
-Oauth2 client and (Resource + Auth) server showcasing the authorization code grant flow.
+Spring boot Oauth2 projects for Authorization server along with Resource server and Oauth2 client showcasing the authorization code grant flow
 
 # Authorization code grant flow:
 This grant type is most appropriate for server-side web applications. After the resource owner has authorized access to their data, they are redirected back to the web application with an authorization code as a query parameter in the URL. This code must be exchanged for an access token by the client application. This exchange is done server-to-server and requires both the client_id and cli
